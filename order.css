@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.bg {
+
+    height: 100vh;
+    background-image: url(./bgorder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box {
+    width: 1180px;
+    height: 400px;
+    border-radius: 1px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(253, 136, 247, 0.996) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+    padding: 42px 427px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    gap: 17px;
+}
+
+.top {
+    display: flex;
+    gap: 24px;
+}
+
+.in {
+    width: 362px;
+    height: 50px;
+    border-radius: 9px;
+    border: 1px solid #A1A1A1;
+    padding: 7px;
+}
+
+.inp {
+    width: 750px;
+    height: 80px;
+    border-radius: 9px;
+    border: 1px solid #A1A1A1;
+    padding: 7px;
+}
+
+.btn4 {
+    width: 169px;
+    height: 42px;
+    border-radius: 9px;
+    border: none;
+    background: linear-gradient(96.12deg, #D4145A -21.03%, #3D5BF5 103.56%);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    margin-top: 42px;
+}
+
+.btn4:hover {
+    width: 175px;
+    height: 50px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width:768px) {
+    .bg {
+        background-image: url(./bgorder.png);
+        width: 768px;
+        height: 1006px;
+    }
+
+
+
+    .box {
+        width: 90%;
+        height: 50%;
+        border-radius: 9px;
+    }
+
+    h1 {
+        white-space: nowrap;
+    }
+
+    .top {
+        flex-direction: column;
+    }
+
+    .in {
+        width: 432px;
+        height: 41px;
+    }
+
+    .inp {
+        width: 432px;
+        height: 95px;
+    }
+
+    .btn4 {
+        width: 137px;
+        height: 34px;
+        border: none;
+        border-radius: 9px;
+
+
+    }
+
+
+}
+
+@media (max-width:320px) {
+
+    .bg {
+        background-image: url(./bgphone.png);
+        width: 320px;
+        height: 1006px;
+    }
+
+    h1 {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 17.58px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+
+    .box {
+        width: 90%;
+        height: 37%;
+        border-radius: 9px;
+    }
+
+    .in {
+        width: 212px;
+        height: 20px;
+        text-align: center;
+    }
+
+    .inp {
+        width: 212px;
+        height: 95px;
+        text-align: center;
+    }
+
+    .btn4 {
+        width: 58px;
+        height: 18px;
+        border: none;
+        border-radius: 4px;
+        font-size: 9px;
+        font-weight: 400;
+
+    }
+
+
+
+}

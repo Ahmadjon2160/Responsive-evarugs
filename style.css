@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1190px;
+}
+
+.header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.a1 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #737373;
+    text-decoration: none;
+
+}
+
+h1 {
+    width: 596px;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 58.59px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+}
+
+.sec-one {
+    width: 533px;
+    height: 686px;
+
+
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-between;
+    height: 686px;
+    align-items: center;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+    align-items: start;
+    text-align: left;
+}
+
+.btn1 {
+    width: 179px;
+    height: 53px;
+    border-radius: 7px;
+    border: none;
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+
+
+}
+
+.a2 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23.44px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58.59px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+}
+
+span {
+    background-image: linear-gradient(rgb(255, 0, 195), rgb(63, 63, 190));
+    color: transparent;
+    background-clip: text;
+}
+
+.cards {
+    display: flex;
+    gap: 30px;
+    padding: 120px 0;
+}
+
+.card {
+    width: 344px;
+    height: 414px;
+    border-radius: 9px;
+    border: none;
+    box-shadow: rgba(253, 136, 247, 0.996) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    margin: 31px;
+}
+
+.text {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+h3 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58.59px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+}
+
+.text p {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 14.06px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #737373;
+}
+
+.bg2 {
+    height: 357px;
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+    padding-top: 98px;
+
+}
+
+.boxes {
+    display: flex;
+    gap: 63px;
+
+}
+
+.box {
+    box-shadow: 0px 0px 30px 0px #00000040;
+    width: 436px;
+    height: 187px;
+    border-radius: 9px;
+    border: none;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.ava {
+    width: 93px;
+    height: 106px;
+    transform: translate(0, -50px);
+}
+
+.footer {
+    height: 414px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.first p {
+    width: 224px;
+    height: 32px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.insta {
+    width: 33px;
+    height: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    .header {
+        padding: 0 10px;
+    }
+
+    ul {
+        display: none;
+    }
+  section{
+    display:flex;
+    flex-direction:row ;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+    .section-one {
+        width: 682px;
+        padding: 0 10px;
+    }
+
+    .sec-one {
+        width: 368px;
+        height: 473px;
+    }
+
+    h1 {
+        width: 323px;
+        height: 131px;
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 40px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+
+    }
+
+    .cards {
+        flex-direction:row ;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 590px;
+        height: 325px;
+    }
+
+    .c {
+        width: 590px;
+        height: 170px;
+
+    }
+
+    .boxes {
+        flex-wrap: wrap;
+        flex-direction:row ;
+        align-items: center;
+        padding: 0 120px;
+    }
+
+    .bg2 {
+        height: 948px;
+    }
+    .footer{
+        width: 770px;
+        padding: 114px 20px;
+    }
+}
+
+@media (max-width:320px) {
+    .header {
+        width: 365px;
+        padding: 0 68px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .section-one {
+        width: 365px;
+        background-image: url(./bg.png);
+
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .sec-one {
+        display: none;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
